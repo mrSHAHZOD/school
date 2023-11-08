@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Insititut haqida',
+    'title' => 'Maktab haqida',
     'info' => ' Institut   haqida ma’lumot.
     O‘zbekiston Respublikasi Prezidentining 2022 yil 28-yanvardagi «2022-2026 yillarga mo‘ljallangan Yangi O‘zbekistonning taraqqiyot strategiyasisi to‘g‘risida»gi
     PF-60 farmoniga muvofiq, shuningdek Respublikada to‘qimachilik sanoatidagi malakali kadrlarga bo‘lgan ehtiyojni qondirish maqsadida O‘zbekiston Respublikasi Prezidentining 2022 yil 5-oktyabrdagi «Namangan to‘qimachilik sanoati institutini tashkil etish to‘g‘risida»gi № PQ 386 - sonli qarori bilan Namangan to‘qimachilik sanoati instituti tashkil etildi.

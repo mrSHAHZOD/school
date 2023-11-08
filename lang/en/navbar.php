@@ -2,8 +2,8 @@
 
 return [
     'home' => 'Home',
-    'nav1' => 'Institute',
-    'nav2' => 'About the institute',
+    'nav1' => 'school',
+    'nav2' => 'About school',
     'nav3' => 'Regulatory documents',
     'nav4' => 'Leadership',
     'nav5' => 'Faculties',
@@ -13,7 +13,7 @@ return [
     'nav9' => 'Master`s',
     'nav10' => 'SCIENCE',
     'nav11' => 'TO APPLICANTS',
-    'nav19' => 'Program of creative exams',
+
     'nav12' => 'Instructions for entrance exams',
     'nav13' => 'PRESS SERVICE',
     'nav14' => 'News',
@@ -28,28 +28,6 @@ return [
     'footer5' => 'INSTITUTE',
     'footer6' => 'Namangan Textile Industry Institute',
     'test' => 'The site is in test mode',
-
-    'nav19'=> 'Grants',
-    'nav20'=> 'Scientific Activity',
-    'nav21'=> 'Scientific centers',
-    'nav22'=> 'Council',
-    'nav23'=> 'Scientific councils',
-    'nav24'=> 'Abstracts',
-    'nav25'=> 'Scientific schools',
-    'nav26'=> 'Future plans',
-    'nav27'=> 'Scientific journals',
-    'nav28'=> 'Scientific newsletter',
-    'nav29'=> 'Directions of scientific research',
-    'nav30'=> 'Qualifying and special exams',
-    'nav31'=> 'Scientific laboratories',
-    'nav32'=> 'International communication',
-    'nav33'=> 'International cooperation organizations',
-    'nav34'=> 'International teachers',
-    'nav35'=> 'Foreign training and education',
-    'nav36'=> 'Raised investments and grants',
-    'nav37'=> 'Recruiting an international IT specialist',
-    'nav38'=> 'Current projects',
-    'nav39'=> 'Learning Process',
 ];
 
 ?>

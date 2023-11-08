@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-
+ 
     <!-- Banner @s -->
     <div class="header-banner bg-theme-grad">
         <div class="nk-banner">

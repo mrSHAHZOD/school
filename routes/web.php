@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\FacultyController;
+
 use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\NumberController;
@@ -9,7 +9,6 @@ use App\Http\Controllers\Admin\PosterController;
 use App\Http\Controllers\Admin\ServiceController;
 use App\Http\Controllers\Admin\TeamController;
 use App\Http\Controllers\Admin\VideoController;
-use App\Http\Controllers\Admin\GrantController;
 use App\Http\Controllers\PagesController;
 
 use Illuminate\Support\Facades\Route;
@@ -47,13 +46,11 @@ Route::prefix('admin/')->name('admin.')->middleware('auth')->group(function(){
     Route::resource('orders', OrderController::class)->only('index', 'show', 'destroy');
     Route::resources([
         'teams' => TeamController::class,
-        'posters' => PosterController::class,
-        'faculties' => FacultyController::class,
+        'posters' => PosterController::class,      
         'news' => NewsController::class,
         'galleries' => GalleryController::class,
         'videos' => VideoController::class,
         'services' => ServiceController::class,
-        'grants' => GrantController::class,
     ]);
 
     Route::get('numbers/{id}', [NumberController::class, 'index'])->name('numbers');

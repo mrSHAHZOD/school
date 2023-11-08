@@ -1,7 +1,7 @@
 <section id="sidebar">
 		<a href="/admin/dashboard" class="brand">
 			<i class='bx bxs-smile'></i>
-			<span class="text">Admin NamTSI</span>
+			<span class="text">Admin 13-maktab</span>
 		</a>
 		<ul class="side-menu top">
 
@@ -11,14 +11,6 @@
 					<span class="text">Rahbariyat</span>
 				</a>
 			</li>
-
-            <li class="@yield('faculties')">
-				<a href="{{ route('admin.faculties.index') }}">
-					<i class='bx bxs-shopping-bag-alt' ></i>
-					<span class="text">Fakultetlar</span>
-				</a>
-			</li>
-
             <li class="@yield('news')">
 				<a href="{{ route('admin.news.index') }}">
 					<i class='bx bxs-shopping-bag-alt' ></i>
@@ -65,12 +57,6 @@
 				<a href="{{ route('admin.orders.index') }}">
 					<i class='bx bxs-shopping-bag-alt' ></i>
 					<span class="text">Kelgan arizalar</span>
-				</a>
-			</li>
-			<li class="@yield('orders')">
-				<a href="{{ route('admin.grants.index') }}">
-					<i class='bx bxs-shopping-bag-alt' ></i>
-					<span class="text">Grantlar</span>
 				</a>
 			</li>
 

@@ -16,7 +16,7 @@
 
 
 	<!-- SIDEBAR -->
-	@include('admin.layouts.navbar') 
+	@include('admin.layouts.navbar')
 	<!-- SIDEBAR -->
 
 
@@ -37,7 +37,7 @@
 			<label for="switch-mode" class="switch-mode"></label>
 			<a href="#" class="notification">
 				<i class='bx bxs-bell' ></i>
-				<span class="num">{{DB::table('orders')->where('status',0)->count() }}</span>
+				<span class="num">25</span>
 			</a>
 			<a href="#" class="profile">
 				<img src="/admin/img/people.png">

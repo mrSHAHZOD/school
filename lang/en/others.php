@@ -9,7 +9,6 @@ return [
                     Address: Davlatabad District Gulabad MFY Andijan Kucha Southern Ring Road
                     House No. 37',
     'download' => 'Download regulations',
-    'download1'=> 'Download the study schedule',
     'team1' => 'Khalikov Kurbanali Madaminovich',
     'team2' => 'RECTOR',
     'team3' => 'Higher education of the Republic of Uzbekistan is related to the production of science and innovations

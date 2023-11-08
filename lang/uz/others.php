@@ -17,9 +17,5 @@ return [
     etib tayinlandi.',
     'team4' => 'Rahbariyat jamoasi',
     'team5' => 'Maslahatchilar',
-
-    /* yangi qoshildi */
-
-    'download1'=>'O`quv jarayoni jadvalini yuklab olish',
 ];
 ?>

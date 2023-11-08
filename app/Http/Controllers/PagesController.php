@@ -10,7 +10,6 @@ use App\Models\Poster;
 use App\Models\Service;
 use App\Models\Team;
 use App\Models\Video;
-use App\Models\Grant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -23,23 +22,16 @@ class PagesController extends Controller
         $posters = Poster::latest()->take(6)->get();
         $numbers = Number::find(1)->first();
         $services = Service::latest()->take(6)->get();
-        $grants = Grant::latest()->take(6)->get();
 
-        return view('welcome', compact('sliders', 'news', 'posters', 'numbers', 'services','grants'));
+        return view('welcome', compact('sliders', 'news', 'posters', 'numbers', 'services'));
     }
-    
-    public function get_video(){
-        return view('pages.video');
-    }
+
     public function get_about(){
         return view('pages.about');
     }
 
     public function get_docs(){
         return view('pages.docs');
-    }
-    public function get_pdf(){
-        return view('pages.pdf');
     }
 
     public function get_team(){
@@ -50,15 +42,7 @@ class PagesController extends Controller
         return view('pages.team', compact('teams1', 'teams2'));
     }
 
-    public function get_faculty(){
-
-        $faculties = Faculty::all();
-        return view('pages.faculty', compact('faculties'));
-    }
-
-    public function get_requisits(){
-        return view('pages.requisits');
-    }
+   
 
     public function get_roadmap(){
         return view('pages.roadmap');
@@ -75,9 +59,8 @@ class PagesController extends Controller
         return view('pages.single-news', compact('news'));
     }
 
-    public function get_grant(Grant $grants){
-        $grants = Grant::latest()->paginate(3);
-        return view('pages.grant', compact('grants'));
+    public function get_contact(){
+        return view('pages.contact');
     }
 
     public function get_exams(){
@@ -99,10 +82,6 @@ class PagesController extends Controller
         return view('pages.poster', compact('poster'));
     }
 
-    public function get_ijodiy(){
-
-        return view('pages.ijodiy');
-    }
 
     public function post_messages(Request $request){
 

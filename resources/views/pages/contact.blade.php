@@ -12,7 +12,7 @@
                             <div class="col-xl-6 col-lg-9">
                                 <div class="banner-caption cpn tc-light text-center">
                                     <div class="cpn-head">
-                                        <h2 class="title ttu"> @lang('navbar.nav19') </h2>
+                                        <h2 class="title ttu"> @lang('navbar.nav17') </h2>
                                     </div>
                                 </div>
                             </div>

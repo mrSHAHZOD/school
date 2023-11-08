@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="/images/logos.png">
+    <link rel="shortcut icon" href="/images/13logos.png">
     <!-- Site Title  -->
-    <title>Namangan to'qimachilik sanoat instituti</title>
+    <title>13-maktab</title>
     <!-- Bundle and Base CSS -->
     <link rel="stylesheet" href="/assets/css/vendor.bundle.css?ver=200">
     <link rel="stylesheet" href="/assets/css/style-dark.css?ver=200">
@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="/assets/css/theme.css?ver=200">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/assets/css/main.css">
-
-    <link rel="stylesheet" type="text/css" href="video/style.css">
 </head>
 
 <body class="nk-body body-wider theme-dark mode-onepage">
@@ -42,8 +40,8 @@
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
                             <a href="/" class="logo-link">
-                                <img class="logo-dark" src="/images/logog.png" alt="logo">
-                                <img class="logo-light" src="/images/logog.png" alt="logo">
+                                <img class="logo-dark" src="/images/13logog.jpg" alt="logo">
+                                <img class="logo-light" src="/images/13logog.jpg" alt="logo">
 
                             </a>
                         </div>
@@ -96,7 +94,7 @@
                                                 <li><a href="/team">@lang('navbar.nav4')</a></li>
                                                 <li><a href="/roadmap">@lang('navbar.nav11')</a></li>
                                                 <li><a href="/news">@lang('navbar.nav14')</a></li>
-                                                <li><a href="/requisit">@lang('navbar.nav6')</a></li>
+                                               
 
                                             </ul>
                                         </div>
@@ -127,13 +125,13 @@
                                 <div class="col-lg-4 col-md-8 offset-lg-1">
                                     <div class="wgs wgs-text">
                                         <a class="wgs-logo" href="./">
-                                            <img src="/images/logog.png"  alt="logo">
+                                            <img src="/images/13logos.png"  alt="logo">
                                         </a>
                                         <div class="wgs-body">
                                             <div class="wgs-subscribe wgs-subscribe-s2">
                                                 <p>@lang('navbar.footer6')</p>
                                                 <ul class="social">
-                                                    <li><a href="https://t.me/ntsiuz"><em class="social-icon fab fa-telegram"></em></a></li>
+                                                    <li><a href="https://t.me/shdzv"><em class="social-icon fab fa-telegram"></em></a></li>
                                                     <li><a href="#"><em class="social-icon fab fa-facebook-f"></em></a></li>
                                                     <li><a href="#"><em class="social-icon fab fa-youtube"></em></a></li>
                                                     <li><a href="#"><em class="social-icon fab fa-instagram"></em></a></li>

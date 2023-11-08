@@ -27,7 +27,7 @@
 </header>
 <main class="nk-pages">
 <section class="section bg-theme-light tc-dark" id="blog">
-<div class="container">
+    <div class="container">
         <!-- Block @s -->
         <div class="nk-block nk-block-blog">
             <div class="row justify-content-center">
